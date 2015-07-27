@@ -1,4 +1,4 @@
-# eartholio
-web portfolio
+# Eartholio
+Virudson Portfolio Web Site
 
-underconstruction 
+Underconstruction 
