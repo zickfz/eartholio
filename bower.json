@@ -1,0 +1,24 @@
+{
+  "name": "eartholio",
+  "version": "0.0.1",
+  "authors": [
+    "zickfz <zickfz@gmail.com>"
+  ],
+  "description": "portfolio",
+  "main": "index",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  },
+  "devDependencies": {
+    "font-awesome": "~4.4.0"
+  }
+}
