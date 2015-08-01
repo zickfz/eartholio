@@ -1,0 +1,32 @@
+/* nav no radius */
+.navbar {
+	border-radius: 0;
+} 
+
+/*******************************
+
+	COLOR BACKGROUND
+
+********************************/
+.white{
+	background-color: white !important;
+}
+.black{
+	background-color: black !important;
+}
+
+
+/*******************************
+
+		COLOR TEXT
+
+*******************************/
+
+.white-text{
+	color: white !important;
+}
+
+.black-text{
+	color: black !important;
+}
+
