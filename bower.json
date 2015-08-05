@@ -19,6 +19,7 @@
     "bootstrap": "~3.3.5"
   },
   "devDependencies": {
-    "font-awesome": "~4.4.0"
+    "font-awesome": "~4.4.0",
+    "holderjs": "1.0"
   }
 }

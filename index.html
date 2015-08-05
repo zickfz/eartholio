@@ -4,9 +4,11 @@
   <meta charset="utf-8"></meta>
   <meta content="IE=edge" http-equiv="X-UA-Compatible"></meta>
   <meta content="width=device-width, initial-scale=1" name="viewport"></meta>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/normalize.min.css">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/custom.css">
+
   </head>
 
 <body>
@@ -34,8 +36,8 @@
     <div class="main">
     <div class="container">
       <!--main-->
-       <div class="col s12 ">
-       <img src="img/yhong.png"  >
+       <div class="col s12">
+       <img src="img/yhong.png" class="img-rounded">
       <div class="col-md-6 pull-right">
         <h1>Hello !</h1>
         <p> I'm Virudson Thitilertdecha, a ‘full stack’ Ruby developer from Nonthaburi, Thailand.
@@ -55,7 +57,21 @@
         
             </div>
        </div>
-  
+    
+  <!--work gallery-->
+       <div class="container">
+      <div class="row">
+          <div class="col-md-4"><img src="holder.js/300x200?random=yes" class="img-responsive" /></div>
+          <div class="col-md-4"><img src="holder.js/300x200?random=yes" class="img-responsive"  /></div>
+          <div class="col-md-4"><img src="holder.js/300x200?random=yes" class="img-responsive"  /></div></div>       
+      </div>
+      <div class="container">
+      <div class="row">
+          <div class="col-md-4"><img src="holder.js/300x200?random=yes" class="img-responsive"/></div>
+          <div class="col-md-4"><img src="holder.js/300x200?random=yes" class="img-responsive"/></div>
+          <div class="col-md-4"><img src="holder.js/300x200?random=yes" class="img-responsive"/></div>       
+    </div>
+    </div> 
     
   </div>
   </div></div>  
@@ -63,7 +79,7 @@
 
  
 <!-- footer -->
-    <footer class="footer hide-on-small-only navbar-fixed-bottom">
+    <footer class="footer hide-on-small-only ">
         <div class="container">
             <div class="row ">
               <div class="col-md-6">
@@ -117,7 +133,8 @@ RUBY ON RAILS DEVELOPER</p>
         -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/bootstrap.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="bower_components/holderjs/holder.min.js"></script>
+    <script src="js/custom.js"></script> 
         <!--
 
          IE10 viewport hack for Surface/desktop Windows 8 …
