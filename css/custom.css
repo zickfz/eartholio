@@ -1,7 +1,15 @@
-/* nav no radius */
+/*******************************
+		 no radius
+********************************/
 .navbar {
 	border-radius: 0;
+	border-style: none;
 } 
+
+
+a:hover {
+	color: black !important;
+}
 
 /*******************************
 
@@ -30,3 +38,18 @@
 	color: black !important;
 }
 
+/*******************************
+
+		Font-size
+
+*******************************/
+
+
+/*******************************
+
+		no style list
+
+*******************************/
+.no-list{
+	list-style: none;
+}

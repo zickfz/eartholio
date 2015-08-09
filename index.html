@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/normalize.min.css">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bower_components/Hover/css/hover-min.css">
+
   <link rel="stylesheet" href="css/custom.css">
 
   </head>
@@ -16,7 +18,7 @@
   <nav class="navbar white navbar-inverse ">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <button type="button" class="navbar-toggle collapsed black-text" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -25,10 +27,10 @@
         <a class="navbar-brand black-text" href="#">EARTHOLIO</a>
     </div>
     <div style="height: 0.8px;" aria-expanded="false" id="navbar" class="navbar-collapse collapse">
-        <ul class=" black-text nav navbar-nav pull-right">
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul class="black-text nav navbar-nav pull-right">
+          <li class="hvr-underline-from-center"><a href="#">Home</a></li>
+          <li class="hvr-underline-from-center"><a href="#about">About</a></li>
+          <li class="hvr-underline-from-center"><a href="#contact">Contact</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
@@ -36,8 +38,8 @@
     <div class="main">
     <div class="container">
       <!--main-->
-       <div class="col s12">
-       <img src="img/yhong.png" class="img-rounded">
+      <div class="col s12">
+          <img src="img/yhong.png" class="img-circle">
       <div class="col-md-6 pull-right">
         <h1>Hello !</h1>
         <p> I'm Virudson Thitilertdecha, a ‘full stack’ Ruby developer from Nonthaburi, Thailand.
@@ -47,19 +49,21 @@
             
        </div>
        <!--skill content -->
-       <div class="skill">
-            <div class="row">
-              <div class="skill_mini">
-                <h5>ruby</h5>
-                <img src="images/lp.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet</p>
-              </div>
+       <div class="skill_set">
+          <div class="container">
+                <div class="row">
+                <h2 class="col s12">My Skill<h2>
+                  <ul class="skill_set">
+                    <li class="no-list"><img src="img/ruby.svg" width="100" height="100" ></li>
+                  </ul>
         
-            </div>
+                </div>
+          </div>
        </div>
+
     
   <!--work gallery-->
-       <div class="container">
+  <div class="container">
       <div class="row">
           <div class="col-md-4"><img src="holder.js/300x200?random=yes" class="img-responsive" /></div>
           <div class="col-md-4"><img src="holder.js/300x200?random=yes" class="img-responsive"  /></div>
@@ -71,7 +75,7 @@
           <div class="col-md-4"><img src="holder.js/300x200?random=yes" class="img-responsive"/></div>
           <div class="col-md-4"><img src="holder.js/300x200?random=yes" class="img-responsive"/></div>       
     </div>
-    </div> 
+   </div> 
     
   </div>
   </div></div>  
@@ -84,7 +88,7 @@
             <div class="row ">
               <div class="col-md-6">
                 <h5 class="black-text">Virudson Thitilertdecha</h5>
-                <p class="black-text text-lighten-4">
+                <p class="black-text">
 RUBY ON RAILS DEVELOPER</p>
               </div>
               <div class="col-md-6">
