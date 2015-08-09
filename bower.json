@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "font-awesome": "~4.4.0",
-    "holderjs": "1.0"
+    "Hover": "~2.0.2",
+    "holderjs": "~2.8.1"
   }
 }
