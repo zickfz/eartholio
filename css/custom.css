@@ -152,6 +152,135 @@ a:hover {
 
 
 
+
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+* {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body, .wrap {
+  min-height: 100%; }
+
+
+
+
+.content {
+  width: 100%;
+  min-height: 100%;
+  background: white; }
+  @media screen and (min-width: 760px) {
+    .content {
+      float: left;
+      width: 80%; } }
+  .content .portfolio-item {
+    background: #f7f7f7; }
+    .content .portfolio-item:before {
+      content: "";
+      position: absolute;
+      width: 3px;
+      background: #eaeaea;
+      top: 0px;
+      left: 17px;
+      bottom: 0px; }
+    .content .portfolio-item.first:before {
+      top: 30px; }
+    .content .portfolio-item .portfolio-info {
+      min-height: 100%;
+      color: #5e5e5e;
+      padding: 20px 20px 20px 40px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box; }
+      @media screen and (min-width: 760px) {
+        .content .portfolio-item .portfolio-info {
+          float: left;
+          width: 30%; } }
+      .content .portfolio-item .portfolio-info .date {
+        font-size: 110%;
+        color: black;
+        margin-bottom: 10px; }
+        .content .portfolio-item .portfolio-info .date:before {
+          content: "";
+          position: absolute;
+          width: 11px;
+          height: 11px;
+          border-radius: 50%;
+          border: 2px solid #f7f7f7;
+          background: #d35136;
+          left: -29px;
+          top: 3px; }
+      .content .portfolio-item .portfolio-info .meta {
+        color: black;
+        margin-top: 10px; }
+        .content .portfolio-item .portfolio-info .meta p {
+          margin: 0; }
+    .content .portfolio-item .portfolio-image {
+      padding: 20px;
+      background: white;
+      border-left: 1px solid #dedede;
+      text-align: center; }
+      @media screen and (min-width: 760px) {
+        .content .portfolio-item .portfolio-image {
+          float: left;
+          width: 70%; } }
+      .content .portfolio-item .portfolio-image img {
+        width: 100%;
+        max-width: 610px;
+        height: auto; }
+      .content .portfolio-item .portfolio-image div.loading img {
+        width: auto;
+        height: auto; }
+  .content div.loading {
+    color: #c4c4c4;
+    position: absolute;
+    width: 100px;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -50px; }
+    .content div.loading img {
+      vertical-align: middle; }
+      .content div.loading img.rotate {
+        -webkit-animation-name: rotate;
+        -ms-animation-name: rotate;
+        animation-name: rotate;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-iteration-count: infinite;
+        -ms-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        -ms-animation-timing-function: linear;
+        animation-timing-function: linear; }
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transform-origin: center center;
+    transform-origin: center center; } }
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center; } }
+
+
+
+
+
 /*Coustom Media Query Css*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
