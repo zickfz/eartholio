@@ -6,6 +6,10 @@
 	border-style: none;
 } 
 
+.container {
+	box-sizing:border-box;
+}
+
 /*******************************
 
 		hover 
@@ -181,7 +185,7 @@ html, body, .wrap {
       float: left;
       width: 80%; } }
   .content .portfolio-item {
-    background: #f7f7f7; }
+    background: white; }
     .content .portfolio-item:before {
       content: "";
       position: absolute;
@@ -195,7 +199,7 @@ html, body, .wrap {
     .content .portfolio-item .portfolio-info {
       min-height: 100%;
       color: #5e5e5e;
-      padding: 20px 20px 20px 40px;
+      padding: 20px 20px 20px 41.5px;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       -ms-box-sizing: border-box;
@@ -226,7 +230,7 @@ html, body, .wrap {
     .content .portfolio-item .portfolio-image {
       padding: 20px;
       background: white;
-      border-left: 1px solid #dedede;
+/*      border-left: 1px solid black;  */
       text-align: center; }
       @media screen and (min-width: 760px) {
         .content .portfolio-item .portfolio-image {
